@@ -17,6 +17,8 @@ class GitHub:
 
         return body
     
+    # My individual part starts here
+    
     def get_emojis(self):
         r = requests.get('https://api.github.com/emojis')
         body = r.json()
